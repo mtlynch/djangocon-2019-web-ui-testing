@@ -25,6 +25,3 @@ def test_basic_duckduckgo_search(browser):
   
   # And the search result links pertain to "panda"
   assert result_page.result_count_for_phrase(PHRASE) > 0
-
-  # TODO: Remove this exception once the test is complete
-  raise Exception("Incomplete Test")
