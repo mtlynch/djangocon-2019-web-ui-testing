@@ -24,5 +24,6 @@ def test_basic_duckduckgo_search(browser):
   assert result_page.result_count_for_phrase(PHRASE) > 0
 
   # And the search result title contains "panda"
+  # (Putting this assertion last guarantees that the page title will be ready)
   assert PHRASE in result_page.title()
   
