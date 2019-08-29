@@ -26,12 +26,14 @@ For Web UI testing, you will need to install the latest versions of
 [Google Chrome](https://www.google.com/chrome/)
 and [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/).
 You can use other browsers with Selenium WebDriver,
-but the tutorial will use Chrome and Firefox.
-Make sure your browser versions are up-to-date.
+but this tutorial uses Chrome and Firefox.
+Make sure your browser versions are up to date.
 
 You will also need the latest versions of the WebDriver executables for these browsers:
-[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) for Chrome
-and [geckodriver](https://github.com/mozilla/geckodriver/releases) for Firefox.
+
+* [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/) for Chrome
+* [geckodriver](https://github.com/mozilla/geckodriver/releases) for Firefox
+
 These WebDriver executables will act as a proxy between our test automation code and browser instances.
 Make sure their versions match the versions of the browsers, or else problems may happen.
 The WebDriver executables must also be on your [system path](https://en.wikipedia.org/wiki/PATH_(variable)).
@@ -1074,7 +1076,7 @@ This DjangoCon 2019 *Hands-On Web UI Testing* tutorial is related to other tutor
 
 [Test Automation University](https://testautomationu.applitools.com/)
 offers free online courses on several testing and automation topics.
-All TAU courses are great, but the following ones compliment this tutorial especially well:
+All TAU courses are great, but the following lessons complement this tutorial especially well:
 
 * [Web Element Locator Strategies](https://testautomationu.applitools.com/web-element-locator-strategies/) shows how to write good locators and use Chrome DevTools.
 * [Behavior-Driven Python with pytest-bdd](https://testautomationu.applitools.com/behavior-driven-python-with-pytest-bdd/) shows how to use `pytest-bdd` to write BDD-style tests.
@@ -1106,7 +1108,7 @@ Other helpful links:
 
 ## About the Author
 
-This tutorial was written and delivered by **Andrew Knight** (aka *Pandy*), the "Automation Panda".
+This tutorial was written and delivered by **Andrew Knight** (aka *Pandy*), the "Automation Panda."
 Andy is a Pythonista who specializes in testing and automation.
 
 * Twitter: [@AutomationPanda](https://twitter.com/AutomationPanda)
